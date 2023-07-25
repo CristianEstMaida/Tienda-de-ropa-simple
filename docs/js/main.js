@@ -1,261 +1,15 @@
-// const productos = [
-//     // Abrigos
+// const productosArray = [
 //     {
 //         id: "abrigo-01",
 //         titulo: "Abrigo 01",
 //         imagen: "./img/abrigos/01.jpg",
 //         categoria: {
 //             nombre: "Abrigos",
-//             id: "abrigos"
-//         },
-//         precio: 20000
-//     },
-//     {
-//         id: "abrigo-02",
-//         titulo: "Abrigo 02",
-//         imagen: "./img/abrigos/02.jpg",
-//         categoria: {
-//             nombre: "Abrigos",
-//             id: "abrigos"
-//         },
-//         precio: 20000
-//     },
-//     {
-//         id: "abrigo-03",
-//         titulo: "Abrigo 03",
-//         imagen: "./img/abrigos/03.jpg",
-//         categoria: {
-//             nombre: "Abrigos",
-//             id: "abrigos"
-//         },
-//         precio: 20000
-//     },
-//     {
-//         id: "abrigo-04",
-//         titulo: "Abrigo 04",
-//         imagen: "./img/abrigos/04.jpg",
-//         categoria: {
-//             nombre: "Abrigos",
-//             id: "abrigos"
-//         },
-//         precio: 20000
-//     },
-//     {
-//         id: "abrigo-05",
-//         titulo: "Abrigo 05",
-//         imagen: "./img/abrigos/05.jpg",
-//         categoria: {
-//             nombre: "Abrigos",
-//             id: "abrigos"
-//         },
-//         precio: 20000
-//     },
-//     // Camisetas
-//     {
-//         id: "camiseta-01",
-//         titulo: "Camiseta 01",
-//         imagen: "./img/camisetas/01.jpg",
-//         categoria: {
-//             nombre: "Camisetas",
-//             id: "camisetas"
-//         },
-//         precio: 5000
-//     },
-//     {
-//         id: "camiseta-02",
-//         titulo: "Camiseta 02",
-//         imagen: "./img/camisetas/02.jpg",
-//         categoria: {
-//             nombre: "Camisetas",
-//             id: "camisetas"
-//         },
-//         precio: 5000
-//     },
-//     {
-//         id: "camiseta-03",
-//         titulo: "Camiseta 03",
-//         imagen: "./img/camisetas/03.jpg",
-//         categoria: {
-//             nombre: "Camisetas",
-//             id: "camisetas"
-//         },
-//         precio: 5000
-//     },
-//     {
-//         id: "camiseta-04",
-//         titulo: "Camiseta 04",
-//         imagen: "./img/camisetas/04.jpg",
-//         categoria: {
-//             nombre: "Camisetas",
-//             id: "camisetas"
-//         },
-//         precio: 5000
-//     },
-//     {
-//         id: "camiseta-05",
-//         titulo: "Camiseta 05",
-//         imagen: "./img/camisetas/05.jpg",
-//         categoria: {
-//             nombre: "Camisetas",
-//             id: "camisetas"
-//         },
-//         precio: 5000
-//     },
-//     // Pantalones
-//     {
-//         id: "pantalon-01",
-//         titulo: "Pantalón 01",
-//         imagen: "./img/pantalones/01.jpg",
-//         categoria: {
-//             nombre: "Pantalones",
 //             id: "pantalones"
 //         },
-//         precio: 10000
-//     },
-//     {
-//         id: "pantalon-02",
-//         titulo: "Pantalón 02",
-//         imagen: "./img/pantalones/02.jpg",
-//         categoria: {
-//             nombre: "Pantalones",
-//             id: "pantalones"
-//         },
-//         precio: 10000
-//     },
-//     {
-//         id: "pantalon-03",
-//         titulo: "Pantalón 03",
-//         imagen: "./img/pantalones/03.jpg",
-//         categoria: {
-//             nombre: "Pantalones",
-//             id: "pantalones"
-//         },
-//         precio: 10000
-//     },
-//     {
-//         id: "pantalon-04",
-//         titulo: "Pantalón 04",
-//         imagen: "./img/pantalones/04.jpg",
-//         categoria: {
-//             nombre: "Pantalones",
-//             id: "pantalones"
-//         },
-//         precio: 10000
-//     },
-//     {
-//         id: "pantalon-05",
-//         titulo: "Pantalón 05",
-//         imagen: "./img/pantalones/05.jpg",
-//         categoria: {
-//             nombre: "Pantalones",
-//             id: "pantalones"
-//         },
-//         precio: 10000
-//     },
-//     // Calzados
-//     {
-//         id: "calzado-01",
-//         titulo: "Calzado 01",
-//         imagen: "./img/calzados/01.jpg",
-//         categoria: {
-//             nombre: "Calzados",
-//             id: "calzados"
-//         },
-//         precio: 10000
-//     },
-//     {
-//         id: "calzado-02",
-//         titulo: "Calzado 02",
-//         imagen: "./img/calzados/02.jpg",
-//         categoria: {
-//             nombre: "Calzados",
-//             id: "calzados"
-//         },
-//         precio: 10000
-//     },
-//     {
-//         id: "calzado-03",
-//         titulo: "Calzado 03",
-//         imagen: "./img/calzados/03.jpg",
-//         categoria: {
-//             nombre: "Calzados",
-//             id: "calzados"
-//         },
-//         precio: 10000
-//     },
-//     {
-//         id: "calzado-04",
-//         titulo: "Calzado 04",
-//         imagen: "./img/calzados/04.jpg",
-//         categoria: {
-//             nombre: "Calzados",
-//             id: "calzados"
-//         },
-//         precio: 10000
-//     },
-//     {
-//         id: "calzado-05",
-//         titulo: "Calzado 05",
-//         imagen: "./img/calzados/05.jpg",
-//         categoria: {
-//             nombre: "Calzados",
-//             id: "calzados"
-//         },
-//         precio: 10000
-//     },
-//     // Medias
-//     {
-//         id: "medias-01",
-//         titulo: "Media 01",
-//         imagen: "./img/medias/01.jpg",
-//         categoria: {
-//             nombre: "Medias",
-//             id: "medias"
-//         },
 //         precio: 1000
-//     },
-//     {
-//         id: "medias-02",
-//         titulo: "Media 02",
-//         imagen: "./img/medias/02.jpg",
-//         categoria: {
-//             nombre: "Medias",
-//             id: "medias"
-//         },
-//         precio: 1000
-//     },
-//     {
-//         id: "medias-03",
-//         titulo: "Media 03",
-//         imagen: "./img/medias/03.jpg",
-//         categoria: {
-//             nombre: "Medias",
-//             id: "medias"
-//         },
-//         precio: 1000
-//     },
-//     {
-//         id: "medias-04",
-//         titulo: "Media 04",
-//         imagen: "./img/medias/04.jpg",
-//         categoria: {
-//             nombre: "Medias",
-//             id: "medias"
-//         },
-//         precio: 1000
-//     },
-//     {
-//         id: "medias-05",
-//         titulo: "Media 05",
-//         imagen: "./img/medias/05.jpg",
-//         categoria: {
-//             nombre: "Medias",
-//             id: "medias"
-//         },
-//         precio: 1000
-//     },
-    
-// ];
+//     }
+// ]
 
 let productos = [];
 
@@ -295,7 +49,7 @@ function cargarProductos(productosElegidos) {
     ActualizarBotonesAgregar();
 }
 
-//cargarProductos(productos);
+
 
 botonesCategorias.forEach(boton => {
     boton.addEventListener("click", (e) => {
@@ -342,6 +96,28 @@ if(productosEnCarritoLS){
 // const productosEnCarrito = [];
 
 function agregarAlCarrito(e) {
+    Toastify({
+        text: "Producto agregado",
+        duration: 3000,
+        // destination: "https://github.com/apvarun/toastify-js",
+        // newWindow: true,
+        close: true,
+        gravity: "top", // `top` or `bottom`
+        position: "right", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+          background: "linear-gradient(to right, #4b33a8, #785ce9)",
+          borderRadius: "2rem",
+          textTransform: "upercase",
+          fontSize: ".75rem"
+        },
+        offset: {
+            x: '1.5rem', // horizontal axis - can be a number or a string indicating unity. eg: '2em'
+            y: '1.5rem' // vertical axis - can be a number or a string indicating unity. eg: '2em'
+          },
+        onClick: function(){} // Callback after click
+      }).showToast();
+
     const idBoton = e.currentTarget.id;
     const productoAgregado = productos.find(producto => producto.id === idBoton);
 
