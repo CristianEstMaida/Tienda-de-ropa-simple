@@ -8,7 +8,7 @@ const productos = [
             nombre: "Abrigos",
             id: "abrigos"
         },
-        precio: 1000
+        precio: 20000
     },
     {
         id: "abrigo-02",
@@ -18,7 +18,7 @@ const productos = [
             nombre: "Abrigos",
             id: "abrigos"
         },
-        precio: 1000
+        precio: 20000
     },
     {
         id: "abrigo-03",
@@ -28,7 +28,7 @@ const productos = [
             nombre: "Abrigos",
             id: "abrigos"
         },
-        precio: 1000
+        precio: 20000
     },
     {
         id: "abrigo-04",
@@ -38,7 +38,7 @@ const productos = [
             nombre: "Abrigos",
             id: "abrigos"
         },
-        precio: 1000
+        precio: 20000
     },
     {
         id: "abrigo-05",
@@ -48,7 +48,7 @@ const productos = [
             nombre: "Abrigos",
             id: "abrigos"
         },
-        precio: 1000
+        precio: 20000
     },
     // Camisetas
     {
@@ -59,7 +59,7 @@ const productos = [
             nombre: "Camisetas",
             id: "camisetas"
         },
-        precio: 1000
+        precio: 5000
     },
     {
         id: "camiseta-02",
@@ -69,7 +69,7 @@ const productos = [
             nombre: "Camisetas",
             id: "camisetas"
         },
-        precio: 1000
+        precio: 5000
     },
     {
         id: "camiseta-03",
@@ -79,7 +79,7 @@ const productos = [
             nombre: "Camisetas",
             id: "camisetas"
         },
-        precio: 1000
+        precio: 5000
     },
     {
         id: "camiseta-04",
@@ -89,7 +89,7 @@ const productos = [
             nombre: "Camisetas",
             id: "camisetas"
         },
-        precio: 1000
+        precio: 5000
     },
     {
         id: "camiseta-05",
@@ -99,7 +99,7 @@ const productos = [
             nombre: "Camisetas",
             id: "camisetas"
         },
-        precio: 1000
+        precio: 5000
     },
     // Pantalones
     {
@@ -110,7 +110,7 @@ const productos = [
             nombre: "Pantalones",
             id: "pantalones"
         },
-        precio: 1000
+        precio: 10000
     },
     {
         id: "pantalon-02",
@@ -120,7 +120,7 @@ const productos = [
             nombre: "Pantalones",
             id: "pantalones"
         },
-        precio: 1000
+        precio: 10000
     },
     {
         id: "pantalon-03",
@@ -130,7 +130,7 @@ const productos = [
             nombre: "Pantalones",
             id: "pantalones"
         },
-        precio: 1000
+        precio: 10000
     },
     {
         id: "pantalon-04",
@@ -140,7 +140,7 @@ const productos = [
             nombre: "Pantalones",
             id: "pantalones"
         },
-        precio: 1000
+        precio: 10000
     },
     {
         id: "pantalon-05",
@@ -150,7 +150,7 @@ const productos = [
             nombre: "Pantalones",
             id: "pantalones"
         },
-        precio: 1000
+        precio: 10000
     },
     // Calzados
     {
@@ -256,19 +256,6 @@ const productos = [
     },
     
 ];
-
-// const productosArray = [
-//     {
-//         id: "abrigo-01",
-//         titulo: "Abrigo 01",
-//         imagen: "./img/abrigos/01.jpg",
-//         categoria: {
-//             nombre: "Abrigos",
-//             id: "pantalones"
-//         },
-//         precio: 1000
-//     }
-// ]
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
 const botonesCategorias = document.querySelectorAll(".boton-categoria");
