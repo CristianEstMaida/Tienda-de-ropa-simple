@@ -153,6 +153,26 @@ main {
     color: var(--clr-main);
 }
 
+.ornamento-lateral {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100px; 
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+.ornamento-izquierda {
+    left: 0;
+    background-image: url('ornamento.png');
+}
+
+.ornamento-derecha {
+    right: 0;
+    background-image: url('ornamento.png');
+}
+
+
 .contenedor-productos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
